@@ -11,36 +11,30 @@
     ```
 
 ## Find IP
-- default
-    - 192.168.2.3
+- default network
+    - 192.168.0.0
 - nmap
 ```bash
-sudo nmap -sP [IP]
+sudo nmap -sP 192.168.0.0/24
 ```
+
 ----------
 ## OS
 - Raspbian
     - default
         - user: pi
         - password: raspberry
-- Moebius
-    - user: root
-    - password: moebius
 
 ----------
 ## IOT
 - rpi 1
     - SD: 4GB
-    - IP: 192.168.1.101
+    - IP: DHCP
     - OS: Raspbian Lite
-    - WIFI: 
-    - user: tocausan
 - rpi 2
     - SD: 16GB
-    - IP: 192.168.1.102
-    - OS: Moebius
-    - WIFI: 
-    - user: tocausan
+    - IP: DHCP
+    - OS: Raspbian Lite
 
 ----------
 
