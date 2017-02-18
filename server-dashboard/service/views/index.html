@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" ng-cloak>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/mainController.js"></script>
+</head>
+
+<body ng-controller="mainController">
+    <button class="btn btn-default" ng-click="rebootServer()">Restart</button>
+    <button class="btn btn-default" ng-click="shutdownServer()">Shutdown</button>
+</body>
+
+</html>

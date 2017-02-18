@@ -73,7 +73,7 @@ GPIO.RPI_INFO['PI_REVISION']
 Pi Model B/B+ 
 BOARD   BCM         BOARD   BCM
 1       3V3         2   5V
-3       GPIO 2      4   5v
+3       GPIO 2      4   5V
 5       GPIO 3      6   ground
 7       GPIO 4      8   GPIO 14
 9       GROUND      10  GPIO 15

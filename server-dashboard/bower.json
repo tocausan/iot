@@ -1,0 +1,22 @@
+{
+  "name": "server-dashboard",
+  "homepage": "https://github.com/tocausan/iot",
+  "authors": [
+    "tocausan <tocausan@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "service/public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.2",
+    "bootstrap": "^3.3.7"
+  }
+}
