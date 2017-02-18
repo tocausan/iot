@@ -15,12 +15,14 @@ service.get('/', (req, res, next) => {
 // server path
 const server = express.Router();
 service.use('/server', server);
+
 // shutdown
 server.route('/shutdown')
     .get((req, res, next) => {
         serverFunctions.shutdown();
     })
-    // reboot
+
+// reboot
 server.route('/reboot')
     .get((req, res, next) => {
         serverFunctions.reboot();

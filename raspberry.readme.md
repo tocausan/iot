@@ -208,3 +208,6 @@ ff02::2         ip6-allrouters
 ```bash
 sudo /etc/init.d/hostname.sh
 ```
+
+### Run script at boot
+- /etc/rc.local

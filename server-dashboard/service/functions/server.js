@@ -12,7 +12,7 @@ module.exports = {
         cmd.run("sudo shutdown -h now");
     },
     // reboot
-    shutdown: () => {
+    reboot: () => {
         cmd.run("sudo shutdown -r now");
     },
 };
