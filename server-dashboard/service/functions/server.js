@@ -9,10 +9,10 @@ module.exports = {
     },
     // shutdown
     shutdown: () => {
-        cmd.run("sudo shutdown now");
+        cmd.run("sudo shutdown -h now");
     },
     // reboot
     shutdown: () => {
-        cmd.run("sudo reboot");
+        cmd.run("sudo shutdown -r now");
     },
 };
