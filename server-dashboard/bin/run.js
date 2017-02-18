@@ -5,7 +5,7 @@ const http = require('http');
 // service
 const service = require('../service/route');
 const server = http.createServer(service);
-server.listen(8000);
+server.listen(80);
 
 // run log
 server.on('listening', function() {
